@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- styleSheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <h1 class="header">Rock Paper Scissors Game</h1>
+
+    <!-- Container Div -->
+    <div class="container">
+
+        <!-- Pick Button -->
+        <div class="btndiv">
+            <button class="rock" onclick="play('Rock')">
+                <i class="fa-regular fa-hand-back-fist"></i>
+                <p>ROCK</p>
+            </button>
+            <button class="paper" onclick="play('Paper')">
+                <i class="fa-regular fa-hand"></i>
+                <p>PAPER</p>
+            </button>
+            <button class="scissors" onclick="play('Scissors')">
+                <i class="fa-regular fa-hand-scissors"></i>
+                <p>SCISSORS</p>
+            </button>
+        </div>
+
+        <!-- Output Chosen -->
+        <div class="outputDiv">
+            <h4 class="human">Human</h4>
+            <h4 class="computer">Computer</h4>
+        </div>
+
+        <!-- Output Diplay -->
+        <div class="result">
+            <button class="win hidden">You win!</button>
+            <button class="lose hidden">You lose!</button>
+            <button class="draw hidden">It's a draw</button>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

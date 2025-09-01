@@ -1,0 +1,63 @@
+body {
+    background-color: #c5f4f4;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.header {
+    color: #569999;
+}
+
+.container {
+    margin-top: 10vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 0 20px 15px 20px;
+    padding: 12px 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button i {
+    font-size: 37px;
+
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.rock {
+    background-color: #7af07a;
+}
+
+.paper {
+    background-color: #6ab9ea;
+}
+
+.scissors {
+    background-color: #fa7070;
+}
+
+.win {
+    background-color: #7af07a;
+}
+
+.lose {
+    background-color: #fa7070;
+
+}
+
+.draw {
+    background-color: #6ab9ea;
+}
+
+
+/* display none */
+.hidden {
+    display: none;
+}
